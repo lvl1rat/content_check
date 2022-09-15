@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#test_bin="$TSTBIN"
 path="./"
 
 while getopts 'fei:hclm' OPTION; do
