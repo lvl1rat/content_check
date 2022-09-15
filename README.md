@@ -64,4 +64,4 @@ You might want to delete the repo folder, if so, keep a copy of the setup.sh for
 
 
 
-**By: lvl1rat**
+**lvl1rat**  :mouse2:
