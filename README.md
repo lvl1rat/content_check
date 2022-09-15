@@ -12,10 +12,12 @@ Useful when last-chacking full C projects before git pushing [see git]
 Navigate to the script folder and run the setup.sh script using the **sudo bash** command
 ```	
 	Ex: sudo bash setup.sh
+```
 
-	Or: Add an executable permition to the setup.sh file and run it
+Or: Add an executable permition to the setup.sh file and run it
+```
 	chmod +x setup.sh && ./setup.sh 
-````
+```
 ###	---Usage---
 
 After installation you can use the **content_check** keyword directly on terminal followed by **flags**
