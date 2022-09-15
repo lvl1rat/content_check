@@ -27,11 +27,11 @@ If no **content_check** alias are present when checking the alias list, try manu
 ```
 This sould solve it.
 
-###	---Usage---
+###	---Usage/Syntax---
 
 After installation you can use the **content_check** keyword directly on terminal followed by **flags**.
 ```
-	Try $content_check -h for more info.
+	$content_check -h for more info.
 ```
 ```
 	content_check [-i path] [-f] [-e]...
@@ -51,7 +51,7 @@ Navigate to the repo folder and run **./setup.sh** followd by the **-u** [uninst
 ```
 	$./setup.sh -u
 ```
-You might want to delete the repo folder, if so, keep a copy of the setup.sh for future uninstalling or do it manually as follows
+You might want to delete the repo folder, if so, keep a copy of the setup.sh for a future uninstalling or do it manually as follows
 ```
 	$unalias content_check
 	$rm -f ~/.content_check.sh
