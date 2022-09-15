@@ -5,7 +5,7 @@
 
 
 This simple script helps on searching for C archives, Makefiles and libraries starting at the path passed as input [-i]
-Useful when last-chacking full C projects before git pushing [see git]
+Useful when last-chacking full C projects before git pushing it [see git]
 
 ###	---Instalation---
 
