@@ -3,22 +3,22 @@
 
 ###	---Description---
 
-This simple script helps on searching for C archives, Makefiles and libraries starting at the path passed as input [-i]
-Useful when last-chacking full C projects before git pushing it [see git]
+This simple script helps on searching for C archives, Makefiles and libraries starting at the path passed as input [-i].
+Useful when last-chacking full C projects before git pushing it [see git].
 
 ###	---Installation---
 
-Navigate to the script folder and run the setup.sh script using the **sudo bash** command followed by the **-i** [install] flag
+-Navigate to the script folder and run the setup.sh script using the **sudo bash** command followed by the **-i** [install] flag.
 ```	
 	$sudo bash setup.sh -i
 ```
 
-Or: Add an executable permition to the setup.sh file and run it
+Or: Add an executable permition to the setup.sh file and run it.
 ```
 	$chmod +x setup.sh
 	$./setup.sh -i
 ```
-If no **content_check** alias are present when checking the alias list, try manually sourcering the **.bashrc** file
+If no **content_check** alias are present when checking the alias list, try manually sourcering the **.bashrc** file.
 ```
 	&alias - Displays the alias list
 ```
@@ -29,7 +29,7 @@ This sould solve it.
 
 ###	---Usage---
 
-After installation you can use the **content_check** keyword directly on terminal followed by **flags**
+After installation you can use the **content_check** keyword directly on terminal followed by **flags**.
 ```
 	Try $content_check -h for more info.
 ```
