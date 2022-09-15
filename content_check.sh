@@ -54,7 +54,7 @@ while getopts 'fei:hclm' OPTION; do
     h)
       echo
       echo "NAME"
-      echo "    Content-Check"
+      echo "    Content_Check"
       echo
       echo "DESCRIPTION"
       echo "    Helps on searching for C archives, Makefiles and libraries starting at the path passed as input [-i]."
