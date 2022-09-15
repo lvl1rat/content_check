@@ -62,7 +62,7 @@ while getopts 'fei:hclm' OPTION; do
       echo "    Useful when last-chacking full C projects before git pushing [see git]."
       echo
       echo "SYNTAX" >&2
-      echo "                     bash content_check.sh  [-i path] [-f] [-e]..." >&2
+      echo "                     content_check [-i path] [-f] [-e]..." >&2
       echo
       echo "       -i /dir       - Input folder." >&2
       echo "       -c            - Searches for C archives only. [.c] " >&2
