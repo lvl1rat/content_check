@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#test_bin="$TSTBIN"
 path="./"
 
 while getopts 'fei:hclm' OPTION; do
@@ -13,6 +14,9 @@ while getopts 'fei:hclm' OPTION; do
         tput sgr0
 
         find "$path" -type f -name '*.c' -print
+		    tput setaf 2
+        echo ---------------------------------------------------------------------------All-done...
+        tput sgr0
       ;;
     l)
         tput setaf 4
@@ -20,6 +24,9 @@ while getopts 'fei:hclm' OPTION; do
         tput sgr0
 
         find "$path" -type f -name '*.h' -print
+        tput setaf 4		
+		    echo ---------------------------------------------------------------------------All-done...
+        tput sgr0
       ;;
     m)
         tput setaf 3
@@ -27,6 +34,9 @@ while getopts 'fei:hclm' OPTION; do
         tput sgr0
 
         find "$path" -type f -name 'Makefile' -print
+		    tput setaf 3		
+		    echo ---------------------------------------------------------------------------All-done...
+        tput sgr0
       ;;
     f)
         tput setaf 2
@@ -44,17 +54,21 @@ while getopts 'fei:hclm' OPTION; do
         tput sgr0
 
         find "$path" -type f -name 'Makefile' -print
+		    echo ---------------------------------------------------------------------------All-done...
       ;;
     e)
         tput setaf 1
         echo --------------------------------------------------------------Looking-for-empty.......
         tput sgr0
         find "$path" -maxdepth 1 -type d -empty -exec echo {} is empty. \;
+		    tput setaf 1
+		    echo ---------------------------------------------------------------------------All-done...
+        tput sgr0
       ;;
     h)
       echo
       echo "NAME"
-      echo "    Content_Check"
+      echo "    Content-Check"
       echo
       echo "DESCRIPTION"
       echo "    Helps on searching for C archives, Makefiles and libraries starting at the path passed as input [-i]."
