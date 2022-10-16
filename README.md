@@ -13,7 +13,7 @@ Useful when last-chacking full C projects before git pushing it [see git].
 	$sudo bash setup.sh -i
 ```
 
-Or: Add an executable permition to the setup.sh file and run it.
+Or: Add an executable permission to the setup.sh file and run it.
 ```
 	$chmod +x setup.sh
 	$./setup.sh -i
